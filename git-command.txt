@@ -1,0 +1,17 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cabaDev/cabaTest.git
+git push -u origin main
+
+
+--- Una vez iniciado el proyecto
+
+git checkout origin/mi_rama
+git add README.md
+git commit -m "first commit"
+git push -u origin main
+
+
+---
