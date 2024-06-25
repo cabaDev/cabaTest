@@ -15,3 +15,15 @@ git push -u origin main
 
 
 ---
+
+
+git clone
+git pull
+git commit
+git push
+git fetch
+git merge
+
+
+git rebase**
+git cherry-pick**
