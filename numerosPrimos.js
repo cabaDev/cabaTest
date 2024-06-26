@@ -1,5 +1,6 @@
 
 // creo el array
+const array = [];
 let numbersZeroToHundred = [];
 
 for (let i = 0; i <= 99; i++) {
@@ -8,7 +9,7 @@ for (let i = 0; i <= 99; i++) {
 
 let numbersImParZeroToHundred = array.filter(num => num % 2 !== 0);
 
-//console.log(arrayNoPar);
+console.log(array.filter(num => num % 2 !== 0));
 
 // busco numeros primos 
 
@@ -19,21 +20,21 @@ let num = arrayNoPar;
 // console.log(arrayNoPar)
 
 console.log(num)
-console.log(Math.sqrt(16))
+console.log(Math.sqrt(num))
 console.log(Math.sqrt(num))
 console.log(2 <= NaN)
 /**
  * un número primo es un número natural mayor que 1 que tiene únicamente dos divisores positivos distintos: él mismo y el 1.1​
  */
-for (let i = 2; i <= NaN; i++){
+for (let i = 2; i <= NaN; i++) {
     console.log("entra aqui alguna vez")
-    if (num % i === 0){
+    if (num % i === 0) {
         return false
     }
 };
 
 // imprimo los 10 primeros numeros primos
-let primeros10 = arrayNoPar.slice(0,10);
+let primeros10 = arrayNoPar.slice(0, 10);
 //console.log(primeros10);
 
 
