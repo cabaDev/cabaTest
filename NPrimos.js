@@ -11,8 +11,6 @@ if (num === 2) {
 
 if (nume % 2 === 0) {
     return false;
-    // hola
-
 }
 
 let divisible = Math.sqrt(num);
