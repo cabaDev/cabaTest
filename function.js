@@ -42,6 +42,11 @@ const isPalindromo1Array = (array1) => {
     return true
 };
 
+const isPalindromo1Arrayv2 = (array1) => {
+    const array2 = [...array1].reverse(); // Crea una copia y la invierte
+    return array1.every((element, index) => element === array2[index]);
+};
+
 //let myArray = ['o', 'r','e', 'j', 'e', 'r', 'o'];
 let myArray = ['o', 'r','e', 'j', 'e', 'r', 'o'];
 let myArray2 = ['b', 'a','o', 'r', 'e', 'j', 'j', 'e', 'r', 'o', 'a' , 'b'];
@@ -62,3 +67,10 @@ const isPalindromo1ArrayFirtsAndLastPosition = (array1) => {
 
 let isValid  = isPalindromo1ArrayFirtsAndLastPosition(myArray2)
 console.log(isValid)
+
+let i = 0
+while(i < 10){
+ console.log(i)
+    i++
+ 
+}
