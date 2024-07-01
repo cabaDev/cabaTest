@@ -31,5 +31,5 @@ const dameTodosLosNumerosPrimosHasta = (numeroMax) => {
   return almacen;
 };
 
-console.log(dameLosPrimerosNumerosPrimos(100));
+console.log(dameLosPrimerosNumerosPrimos(80));
 console.log(dameTodosLosNumerosPrimosHasta(100));
