@@ -28,30 +28,6 @@ const findQuantityByColor = (colores, colorAContar) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let par1 = ["azul", "blanco", "blanco", "blanco", "negro", "naranja"];
 let par2 = "negro";
 
