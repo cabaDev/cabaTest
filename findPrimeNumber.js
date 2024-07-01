@@ -20,4 +20,7 @@ const giveFirstPrimes = (totalPrimeNumbers) => {
 };
 
 
-console.log(giveFirstPrimes(100));
+console.log(giveFirstPrimes(10));
+
+
+
