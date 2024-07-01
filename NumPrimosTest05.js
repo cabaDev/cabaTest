@@ -112,7 +112,7 @@ const dameTodasLasComidasQueleGustanIterable = () => {
   let todasLasComidasQueLeGustan = [];
 
   for (let index = 0; index < todasLasComidaDelMundo.length; index++) {
-    let comida = todasLasComidaDelMundo[index]
+    let comida = todasLasComidaDelMundo[index];
     // let leGusta = oyeDonatoTeGustanLos(comida)
     if (oyeDonatoTeGustanLos(comida)) {
       todasLasComidasQueLeGustan.push(comida);
