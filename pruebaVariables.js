@@ -38,6 +38,6 @@ const cualesYcuantosAnimalesHay = (animales, qttyAnimals) => {
 }
 
 let resultado = cualesYcuantosAnimalesHay(dato1, dato2);
-//console.log(miCuentaEs);
+console.log(miCuentaEs);
 console.log(dato1, dato2);
 
