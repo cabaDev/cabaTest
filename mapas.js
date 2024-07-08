@@ -30,25 +30,16 @@ map2.set(6, `casa`);
 //console.log(map2)
 
 const cualesYcuantosAnimalesHayCrearMapa = (arrayDeTodosLosAnimales, animalAContar) => {
-    let resultado = new Map(); // mapa
-
+    let resultado = new Map(); 
     for (let index = 0; index < arrayDeTodosLosAnimales.length; index++) {
         const animal = arrayDeTodosLosAnimales[index];
-
         if (animalAContar === animal) {
-            if (resultado.has(animal)) {
-                resultado.set(animal, resultado.get(animal) + 1); /// ??????????? que pasa aqui???
-                //console.log(resultado.set(animal, resultado.get(animal + 20)));
-
+            if (resultado.has(animal)) {resultado.set(animal, resultado.get(animal) + 1); 
             } else { resultado.set(animal, 1) }
         }
     }
-
     return resultado;
-
 }
-
-
 console.log(cualesYcuantosAnimalesHayCrearMapa(
     ["caballo",
         "gato",
@@ -66,3 +57,9 @@ console.log(cualesYcuantosAnimalesHayCrearMapa(
     ],
     "serpiente"
 ))
+
+
+
+
+
+
