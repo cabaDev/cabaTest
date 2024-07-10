@@ -8,12 +8,12 @@ const cualesYcuantosAnimalesHaySiTePasoUnArrayFunctional = (
 
 
 
-let map1 = new Map([
-    [1, "pepe"], [2, "juan"],
-    [3, "milo"], [4, false]
-]);
+// let map1 = new Map([
+//     [1, "pepe"], [2, "juan"],
+//     [3, "milo"], [4, false]
+// ]);
 
-//    console.log(map1)
+    //console.log(map1)
 //    map1.set(5, "milo") // insertar / modificar
 //    console.log(map1)
 //    map1.set(5, "MILO") // recuperar map1.get(5)
