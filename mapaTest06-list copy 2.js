@@ -32,17 +32,17 @@ const mapaFinal =(mapa) => {
     const key = keys[i];
         console.log(`${key}: ${mapa.get(key)}`)
   } ;
-};
+}
 
 mapaFinal(mapaDeNombres);
 
 
-const filtrarElementoDeUnMapa = (mapa, elementoToFilter) => {
-  mapa.has("carlos", i++), mapa.set(nombre), mapa.get(index) + 1;
+// const filtrarElementoDeUnMapa = (mapa, elementoToFilter) => {
+//  
     
-  }
-;
-console.log(filtrarElementoDeUnMapa);
+//   }
+// ;
+//console.log(filtrarElementoDeUnMapa);
 
 
 
